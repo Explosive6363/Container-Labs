@@ -1,0 +1,297 @@
+{
+  "name": "clos-Network",
+  "type": "clab",
+  "clab": {
+    "config": {
+      "prefix": "clab",
+      "mgmt": {
+        "network": "clab",
+        "bridge": "br-4f89d198e4b9",
+        "ipv4-subnet": "172.20.20.0/24",
+        "ipv4-gw": "172.20.20.1",
+        "ipv6-subnet": "2001:172:20:20::/64",
+        "ipv6-gw": "2001:172:20:20::1",
+        "mtu": "1500",
+        "external-access": true
+      }
+    }
+  },
+  "nodes": {
+    "router1": {
+      "index": "0",
+      "shortname": "router1",
+      "longname": "clab-clos-Network-router1",
+      "fqdn": "router1.clos-Network.io",
+      "group": "",
+      "labdir": "/home/possive/Develop/container-lab/clab-clos-Network/router1",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.4",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::4",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4f89d198e4b9",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/possive/Develop/container-lab/clab-clos-Network/router1",
+        "clab-node-name": "router1",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/possive/Develop/container-lab/frr01.clab.yml",
+        "containerlab": "clos-Network"
+      }
+    },
+    "router2": {
+      "index": "1",
+      "shortname": "router2",
+      "longname": "clab-clos-Network-router2",
+      "fqdn": "router2.clos-Network.io",
+      "group": "",
+      "labdir": "/home/possive/Develop/container-lab/clab-clos-Network/router2",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.3",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::3",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4f89d198e4b9",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/possive/Develop/container-lab/clab-clos-Network/router2",
+        "clab-node-name": "router2",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/possive/Develop/container-lab/frr01.clab.yml",
+        "containerlab": "clos-Network"
+      }
+    },
+    "router3": {
+      "index": "2",
+      "shortname": "router3",
+      "longname": "clab-clos-Network-router3",
+      "fqdn": "router3.clos-Network.io",
+      "group": "",
+      "labdir": "/home/possive/Develop/container-lab/clab-clos-Network/router3",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.6",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::6",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4f89d198e4b9",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/possive/Develop/container-lab/clab-clos-Network/router3",
+        "clab-node-name": "router3",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/possive/Develop/container-lab/frr01.clab.yml",
+        "containerlab": "clos-Network"
+      }
+    },
+    "router4": {
+      "index": "3",
+      "shortname": "router4",
+      "longname": "clab-clos-Network-router4",
+      "fqdn": "router4.clos-Network.io",
+      "group": "",
+      "labdir": "/home/possive/Develop/container-lab/clab-clos-Network/router4",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.2",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::2",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4f89d198e4b9",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/possive/Develop/container-lab/clab-clos-Network/router4",
+        "clab-node-name": "router4",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/possive/Develop/container-lab/frr01.clab.yml",
+        "containerlab": "clos-Network"
+      }
+    },
+    "router5": {
+      "index": "4",
+      "shortname": "router5",
+      "longname": "clab-clos-Network-router5",
+      "fqdn": "router5.clos-Network.io",
+      "group": "",
+      "labdir": "/home/possive/Develop/container-lab/clab-clos-Network/router5",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.7",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::7",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4f89d198e4b9",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/possive/Develop/container-lab/clab-clos-Network/router5",
+        "clab-node-name": "router5",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/possive/Develop/container-lab/frr01.clab.yml",
+        "containerlab": "clos-Network"
+      }
+    },
+    "router6": {
+      "index": "5",
+      "shortname": "router6",
+      "longname": "clab-clos-Network-router6",
+      "fqdn": "router6.clos-Network.io",
+      "group": "",
+      "labdir": "/home/possive/Develop/container-lab/clab-clos-Network/router6",
+      "kind": "linux",
+      "image": "frrouting/frr:v7.5.1",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.5",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "2001:172:20:20::5",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-4f89d198e4b9",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/possive/Develop/container-lab/clab-clos-Network/router6",
+        "clab-node-name": "router6",
+        "clab-node-type": "",
+        "clab-topo-file": "/home/possive/Develop/container-lab/frr01.clab.yml",
+        "containerlab": "clos-Network"
+      }
+    }
+  },
+  "links": [
+    {
+      "a": {
+        "node": "router1",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:00:90:d4",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router3",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:d9:1a:1b",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "router1",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:fe:eb:73",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router4",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:bd:6e:ac",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "router1",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:f8:8b:af",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router5",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:ad:82:01",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "router1",
+        "interface": "eth4",
+        "mac": "aa:c1:ab:db:f4:76",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router6",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:9d:6e:fa",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "router2",
+        "interface": "eth1",
+        "mac": "aa:c1:ab:52:dc:46",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router3",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:ca:b7:67",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "router2",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:0c:b9:4c",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router4",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:ec:1f:ab",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "router2",
+        "interface": "eth3",
+        "mac": "aa:c1:ab:0a:7e:f5",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router5",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:73:4c:11",
+        "peer": "a"
+      }
+    },
+    {
+      "a": {
+        "node": "router2",
+        "interface": "eth4",
+        "mac": "aa:c1:ab:e4:68:02",
+        "peer": "z"
+      },
+      "z": {
+        "node": "router6",
+        "interface": "eth2",
+        "mac": "aa:c1:ab:71:c2:96",
+        "peer": "a"
+      }
+    }
+  ]
+}
